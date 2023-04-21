@@ -13,6 +13,9 @@
     body{
         width: 95%; 
     }
+    .counter-box {
+        text-align: center;
+    }
 
 }
 
