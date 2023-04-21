@@ -2,7 +2,7 @@
 
 let minus = document.createElement("button");
 let calderoneMinus = document.createElement("img")
-calderoneMinus.src = "./assets/img/calderoneminus.png";
+calderoneMinus.src = "./assets/img/calderoneMinus.png";
 
 
 minus.appendChild(calderoneMinus);
@@ -14,7 +14,7 @@ box1.appendChild(minus);
 
 let reset = document.createElement("button");
 let cappelloReset = document.createElement("img")
-cappelloReset.src = "./assets/img/cappelloreset.png";
+cappelloReset.src = "./assets/img/cappelloReset.png";
 
 reset.appendChild(cappelloReset);
 
@@ -25,7 +25,7 @@ box2.appendChild(reset);
 
 let plus = document.createElement("button");
 let calderonePlus = document.createElement("img")
-calderonePlus.src = "./assets/img/calderoneplus.png";
+calderonePlus.src = "./assets/img/calderonePlus.png";
 
 plus.appendChild(calderonePlus);
 
