@@ -20,7 +20,7 @@ function onMediaQuery1(mq1) {
   
   // registra la funzione di callback per la media query
   let mq1 = window.matchMedia("(max-width: 400px)");
-  mq1.addListener(onMediaQueryChange);
+  mq1.addListener(onMediaQuery1);
   
   // esegui la funzione di callback all'avvio della pagina
   onMediaQuery1(mq1);
@@ -48,7 +48,7 @@ function onMediaQuery2(mq2) {
 
 // registra la funzione di callback per la media query
 let mq2 = window.matchMedia("(max-width: 960px)");
-mq2.addListener(onMediaQueryChange);
+mq2.addListener(onMediaQuery2);
 
 // esegui la funzione di callback all'avvio della pagina
 onMediaQuery2(mq2);
