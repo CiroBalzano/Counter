@@ -3,13 +3,17 @@
     body {
         width: 95%;
     }
+    .counter-box {
+        text-align: center;
+    }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     body{
-        width: 95%;
+        width: 95%; 
     }
+
 }
 
 /* Desktop Styles */
