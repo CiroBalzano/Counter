@@ -49,7 +49,16 @@ h4 {
 }
 
 .textGradient {
-    color: linear-gradient(60deg, #E21143, #FFB03A);
+    color: red;
+}
+
+@supports (background-color: text) {
+    .textGradient {
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        color: transparent;
+        background-clip: clip;
+    }
 }
 
 img {
