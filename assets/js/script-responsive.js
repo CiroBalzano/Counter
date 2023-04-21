@@ -1,7 +1,7 @@
 // controlla lo stato della media query
 
 function onMediaQuery1(mq1) {
-    if (mq.matches) {
+    if (mq1.matches) {
       // la media query è attiva
       scopaMinus.style.width = "10%";
       scopaPlus.style.width = "10%";
@@ -29,7 +29,7 @@ function onMediaQuery1(mq1) {
 // controlla lo stato della media query
 
 function onMediaQuery2(mq2) {
-  if (mq.matches) {
+  if (mq2.matches) {
     // la media query è attiva
     scopaMinus.style.width = "10%";
     scopaPlus.style.width = "10%";
