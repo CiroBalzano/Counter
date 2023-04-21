@@ -1,6 +1,6 @@
 // controlla lo stato della media query
 
-function onMediaQuery2(mq) {
+function onMediaQueryChange(mq) {
   if (mq.matches) {
     // la media query è attiva
     scopaMinus.style.width = "10%";
@@ -23,4 +23,4 @@ let mq = window.matchMedia("(max-width: 960px)");
 mq.addListener(onMediaQueryChange);
 
 // esegui la funzione di callback all'avvio della pagina
-onMediaQuery2(mq);
+onMediaQueryChange(mq);
