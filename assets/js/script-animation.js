@@ -89,7 +89,7 @@ reset.addEventListener("click", function animationReset() {
 
 
 plus.addEventListener("click", function animationPlus() {
-    page1.appendChild(scopaPlus)
+    shoowBroomPlus();
     page1.appendChild(ermione)
     wingardium.play()
     let animation = setTimeout (function() {
