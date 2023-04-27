@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media all and (max-width: 480px) {
     body {
         width: 95%;
         background-image: url(../img/Hogwarts2.png);
@@ -12,7 +12,7 @@
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media all and (min-width: 481px) and (max-width: 736px) {
     body{
         width: 95%; 
         background-image: url(../img/Hogwarts4.png);
@@ -25,9 +25,8 @@
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 734px) {
     body {
-        width: 960px;
         margin: 0 auto;
     } 
 } 
