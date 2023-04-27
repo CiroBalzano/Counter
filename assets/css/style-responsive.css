@@ -4,7 +4,7 @@
         width: 95%;
         background-image: url(../img/Hogwarts2.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     .counter-box {
         text-align: center;
@@ -17,7 +17,7 @@
         width: 95%; 
         background-image: url(../img/Hogwarts4.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     .counter-box {
         text-align: center;
