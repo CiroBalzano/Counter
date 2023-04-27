@@ -17,7 +17,7 @@
         background-image: url(../img/Hogwarts3.png);
         background-repeat: no-repeat;
         background-size: contain;
-        scroll
+        overflow-y: hidden;
     }
     .counter-box {
         text-align: center;
