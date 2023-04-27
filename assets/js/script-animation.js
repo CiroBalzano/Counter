@@ -113,7 +113,6 @@ ermione.style.left = "0"
 
 voldemort.style.position = "absolute"
 voldemort.style.bottom = "5%"
-voldemort.style.left = "43%"
 
 
 scopaMinus.style.rotate = "100deg"

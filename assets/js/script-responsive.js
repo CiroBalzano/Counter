@@ -8,15 +8,15 @@ function onMediaQueryChange(mq) {
     ermione.style.width = "30%";
     harry.style.width = "30%";
     voldemort.style.width = "30%"
-    voldemort.style.left = "30%"
+    voldemort.style.left = "35%"
   } else {
     // la media query non è attiva
-    voldemort.style.left = "43%"
     scopaMinus.style.width = "5%";
     scopaPlus.style.width = "5%";
     ermione.style.width = "15%";
     harry.style.width = "15%";
     voldemort.style.width = "15%"
+    voldemort.style.left = "43%"
   }
 }
 
