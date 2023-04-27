@@ -1,9 +1,11 @@
 /* Mobile Styles */
 @media all and (max-width: 480px) {
     body {
+        width: 100%;
         background-image: url(../img/Hogwarts2.png);
         background-repeat: no-repeat;
         background-size: contain;
+        overflow-y: hidden;
     }
     .counter-box {
         text-align: center;
@@ -13,9 +15,11 @@
 /* Tablet Styles */
 @media all and (min-width: 481px) and (max-width: 1280px) {
     body{
+        width: 100%;
         background-image: url(../img/Hogwarts3.png);
         background-repeat: no-repeat;
         background-size: contain;
+        overflow-y: hidden;
     }
     .counter-box {
         text-align: center;
