@@ -11,6 +11,7 @@ function onMediaQueryChange(mq) {
     voldemort.style.left = "30%"
   } else {
     // la media query non è attiva
+    voldemort.style.left = "43%"
     scopaMinus.style.width = "5%";
     scopaPlus.style.width = "5%";
     ermione.style.width = "15%";
