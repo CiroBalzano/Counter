@@ -2,6 +2,7 @@
 @media only screen and (max-width: 400px) {
     body {
         width: 95%;
+        background-image: url(../img/Hogwarts2.png);
     }
     .counter-box {
         text-align: center;
@@ -12,6 +13,7 @@
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     body{
         width: 95%; 
+        background-image: url(../img/Hogwarts4.png);
     }
     .counter-box {
         text-align: center;
