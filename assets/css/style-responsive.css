@@ -11,7 +11,7 @@
 }
 
 /* Tablet Styles */
-@media all and (min-width: 481px) and (max-width: 1000px) {
+@media all and (min-width: 481px) and (max-width: 1280px) {
     body{
         background-image: url(../img/Hogwarts3.png);
         background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 /* Desktop Styles */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1281px) {
     body {
         width: 960px;
         margin: 0 auto;
