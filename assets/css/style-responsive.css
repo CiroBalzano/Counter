@@ -4,7 +4,6 @@
         background-image: url(../img/Hogwarts2.png);
         background-repeat: no-repeat;
         background-size: contain;
-        overflow-y: hidden;
     }
     .counter-box {
         text-align: center;
@@ -17,7 +16,6 @@
         background-image: url(../img/Hogwarts3.png);
         background-repeat: no-repeat;
         background-size: contain;
-        overflow-y: hidden;
     }
     .counter-box {
         text-align: center;
