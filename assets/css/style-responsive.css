@@ -3,6 +3,8 @@
     body {
         width: 95%;
         background-image: url(../img/Hogwarts2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .counter-box {
         text-align: center;
@@ -14,6 +16,8 @@
     body{
         width: 95%; 
         background-image: url(../img/Hogwarts4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .counter-box {
         text-align: center;
