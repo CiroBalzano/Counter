@@ -113,7 +113,9 @@ ermione.style.left = "0"
 
 
 voldemort.style.width = "20%"
-voldemort.style.position = "center"
+voldemort.style.position = "absolute"
+voldemort.style.bottom = "40%"
+voldemort.style.left = "50%"
 
 
 scopaMinus.style.width = "5%"
