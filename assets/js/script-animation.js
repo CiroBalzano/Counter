@@ -100,25 +100,22 @@ plus.addEventListener("click", function animationPlus() {
 
 // animation css
 
-harry.style.width = "10%"
+
 harry.style.position = "absolute"
 harry.style.bottom = "0"
 harry.style.right = "0"
 
 
-ermione.style.width = "10%"
 ermione.style.position = "absolute"
 ermione.style.top = "0"
 ermione.style.left = "0"
 
 
-voldemort.style.width = "20%"
 voldemort.style.position = "absolute"
-voldemort.style.bottom = "40%"
-voldemort.style.left = "50%"
+voldemort.style.bottom = "5%"
+voldemort.style.left = "43%"
 
 
-scopaMinus.style.width = "5%"
 scopaMinus.style.rotate = "100deg"
 scopaMinus.style.position = "absolute"
 scopaMinus.style.top = "0"
@@ -126,7 +123,6 @@ scopaMinus.style.left = "0"
 scopaMinus.style.animation = "move1 5s linear"
 
 
-scopaPlus.style.width = "5%"
 scopaPlus.style.rotate = "-80deg"
 scopaPlus.style.position = "absolute"
 scopaPlus.style.bottom = "0"
