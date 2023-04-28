@@ -21,7 +21,7 @@ function onMediaQueryChange(mq) {
 }
 
 // registra la funzione di callback per la media query
-let mq = window.matchMedia("(max-width: 960px)");
+let mq = window.matchMedia("(max-width: 1280px)");
 mq.addListener(onMediaQueryChange);
 
 // esegui la funzione di callback all'avvio della pagina
