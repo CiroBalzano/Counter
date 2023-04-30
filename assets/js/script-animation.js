@@ -1,5 +1,7 @@
 // animation counter
 
+let page1 = document.getElementById("page");
+
 let harry = document.createElement("img")
 harry.src = "./assets/img/Harry.png";
 
@@ -15,8 +17,6 @@ scopaMinus.src = "./assets/img/scopa.png";
 let scopaPlus = document.createElement("img")
 scopaPlus.src = "./assets/img/scopa.png";
 
-let page1 = document.getElementById("page");
-
 let accio = document.createElement("audio")
 accio.src = "./assets/music/accio.mp3";
 
@@ -26,20 +26,24 @@ wingardium.src = "./assets/music/wingardium-leviosa.mp3";
 let avadaa = document.createElement("audio")
 avadaa.src = "./assets/music/avadaa-kedavraa.mp3";
 
-function shoowBroomMinus() {
-        page1.appendChild(scopaMinus)
+async function shoowAnimationMinus() {
+    page1.appendChild(scopaMinus)
+    page1.appendChild(harry)
 }
 
-function removeBroomMinus() {
+function removeAnimationMinus() {
     page1.removeChild(scopaMinus)
+    page1.removeChild(harry)
 }
 
-function shoowBroomPlus() {
+async function shoowAnimationPlus() {
     page1.appendChild(scopaPlus)
+    page1.appendChild(ermione)
 }
 
-function removeBroomPlus() {
+function removeAnimationPlus() {
     page1.removeChild(scopaPlus)
+    page1.removeChild(ermione)
 }
 
 function stopVoice() {
@@ -49,54 +53,45 @@ function stopVoice() {
 
 
 minus.addEventListener("click", function animationMinus() {
-    shoowBroomMinus();
-    page1.appendChild(harry)
+    shoowAnimationMinus();
     let audio = setTimeout (function() {
         accio.play()
     }, 100);
     let animation = setTimeout (function() {
-        removeBroomMinus();
-        page1.removeChild(harry)
+        removeAnimationMinus();
     }, 4600);
 })
 
 
 reset.addEventListener("click", function animationReset() {
-    removeBroomMinus();
+    removeAnimationMinus();
     page1.appendChild(voldemort)
     avadaa.play()
     stopVoice();
     let animation1 = setTimeout (function() {
         page1.removeChild(voldemort)
     }, 4300)
-    let animation2 = setTimeout (function() {
-        page1.removeChild(harry)
-    })
 })
 
 reset.addEventListener("click", function animationReset() {
-    removeBroomPlus();
+    removeAnimationPlus();
     page1.appendChild(voldemort)
     avadaa.play()
     stopVoice();
     let animation1 = setTimeout (function() {
         page1.removeChild(voldemort)
     }, 4300)
-    let animation2 = setTimeout (function() {
-        page1.removeChild(ermione)
-    })
 })
 
 
 plus.addEventListener("click", function animationPlus() {
-    shoowBroomPlus();
-    page1.appendChild(ermione)
+    shoowAnimationPlus();
     wingardium.play()
     let animation = setTimeout (function() {
-        removeBroomPlus();
-        page1.removeChild(ermione)
+        removeAnimationPlus();
     }, 4600)
 })
+
 
 // animation css
 
