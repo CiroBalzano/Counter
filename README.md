@@ -23,9 +23,16 @@ Il font è stato tra le scelte più difficili, in quanto doveo riuscire a trovar
 
 Nel processo della creazione di questo progetto, ho incontrato qualche difficoltà inizialmente, che poi ho risolto grazie a consigli sul materiale da studiare. Sono fiero di aver creato qualcosa di originale in totale autonomia, seguendo un'idea precisa data dalla traccia dell'esercizio ma anche lasciandomi guidare da ispirazione e tentativi.
 
-Link al progetto
+Link collegamento a Linkedin:
+### https://www.linkedin.com/in/ciro-balzano-4561661b8/
+
+Link al progetto:
+### https://cirobalzano.github.io/Counter/
 
 Screenshot:
+### *Questa è la modalità con quale si visualizza da desktop:*
 ![Questa è la modalità con quale si visualizza da desktop](/assets/img/screenshot1.png)
+### *Questa è la modalità con la quale si visualizza da tablet o smarphone in landscape:*
 ![Questa è la modalità con la quale si visualizza da tablet o smarphone in landscape](/assets/img/screenshot2.png)
-![questa è la modalità con la quale si visualizza da smartphone in portrait](/assets/img/screenshot3.png)
+### *Questa è la modalità con la quale si visualizza da smartphone in portrait:*
+![Questa è la modalità con la quale si visualizza da smartphone in portrait](/assets/img/screenshot3.png)
