@@ -24,10 +24,11 @@ Il font è stato tra le scelte più difficili, in quanto doveo riuscire a trovar
 Nel processo della creazione di questo progetto, ho incontrato qualche difficoltà inizialmente, che poi ho risolto grazie a consigli sul materiale da studiare. Sono fiero di aver creato qualcosa di originale in totale autonomia, seguendo un'idea precisa data dalla traccia dell'esercizio ma anche lasciandomi guidare da ispirazione e tentativi.
 
 Link collegamento a Linkedin:
-### https://www.linkedin.com/in/ciro-balzano-4561661b8/
+### ![Ciro Balzano](https://www.linkedin.com/in/ciro-balzano-4561661b8/)
 
 Link al progetto:
-### https://cirobalzano.github.io/Counter/
+### ![Counter Harry Potter](https://cirobalzano.github.io/Counter/)
+
 
 Screenshot:
 ### *Questa è la modalità con quale si visualizza da desktop:*
