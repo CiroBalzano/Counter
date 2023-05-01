@@ -65,9 +65,9 @@ minus.addEventListener("click", function animationMinus() {
 
 reset.addEventListener("click", function animationReset() {
     removeAnimationMinus();
+    stopVoice();
     page1.appendChild(voldemort)
     avadaa.play()
-    stopVoice();
     let animation1 = setTimeout (function() {
         page1.removeChild(voldemort)
     }, 4300)
