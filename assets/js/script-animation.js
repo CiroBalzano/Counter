@@ -26,7 +26,7 @@ wingardium.src = "./assets/music/wingardium-leviosa.mp3";
 let avadaa = document.createElement("audio")
 avadaa.src = "./assets/music/avadaa-kedavraa.mp3";
 
-async function shoowAnimationMinus() {
+function shoowAnimationMinus() {
     page1.appendChild(scopaMinus)
     page1.appendChild(harry)
 }
