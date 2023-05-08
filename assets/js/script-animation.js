@@ -1,29 +1,29 @@
 // animation counter
 
-let page1 = document.getElementById("page");
+const page1 = document.getElementById("page");
 
-let harry = document.createElement("img")
+const harry = document.createElement("img")
 harry.src = "./assets/img/Harry.png";
 
-let ermione = document.createElement("img")
+const ermione = document.createElement("img")
 ermione.src ="./assets/img/Ermione.png";
 
-let voldemort = document.createElement("img")
+const voldemort = document.createElement("img")
 voldemort.src = "./assets/img/Voldemort.png";
 
-let scopaMinus = document.createElement("img") 
+const scopaMinus = document.createElement("img") 
 scopaMinus.src = "./assets/img/scopa.png";
 
-let scopaPlus = document.createElement("img")
+const scopaPlus = document.createElement("img")
 scopaPlus.src = "./assets/img/scopa.png";
 
-let accio = document.createElement("audio")
+const accio = document.createElement("audio")
 accio.src = "./assets/music/accio.mp3";
 
-let wingardium = document.createElement("audio")
+const wingardium = document.createElement("audio")
 wingardium.src = "./assets/music/wingardium-leviosa.mp3";
 
-let avadaa = document.createElement("audio")
+const avadaa = document.createElement("audio")
 avadaa.src = "./assets/music/avadaa-kedavraa.mp3";
 
 function shoowAnimationMinus() {
@@ -36,7 +36,7 @@ function removeAnimationMinus() {
     page1.removeChild(harry)
 }
 
-async function shoowAnimationPlus() {
+function shoowAnimationPlus() {
     page1.appendChild(scopaPlus)
     page1.appendChild(ermione)
 }
@@ -44,6 +44,12 @@ async function shoowAnimationPlus() {
 function removeAnimationPlus() {
     page1.removeChild(scopaPlus)
     page1.removeChild(ermione)
+}
+
+function removeAnimationVoldemort () {
+    setTimeout ( function() {
+        page1.removeChild(voldemort)
+    }, 4300);
 }
 
 function stopVoice() {
@@ -54,7 +60,7 @@ function stopVoice() {
 
 minus.addEventListener("click", function animationMinus() {
     shoowAnimationMinus();
-    let audio = setTimeout (function() {
+    const audio = setTimeout (function() {
         accio.play()
     }, 100);
     let animation = setTimeout (function() {
@@ -68,9 +74,7 @@ reset.addEventListener("click", function animationReset() {
     stopVoice();
     page1.appendChild(voldemort)
     avadaa.play()
-    let animation1 = setTimeout (function() {
-        page1.removeChild(voldemort)
-    }, 4300)
+    removeAnimationVoldemort();
 })
 
 reset.addEventListener("click", function animationReset() {
@@ -78,9 +82,7 @@ reset.addEventListener("click", function animationReset() {
     stopVoice();
     page1.appendChild(voldemort)
     avadaa.play()
-    let animation1 = setTimeout (function() {
-        page1.removeChild(voldemort)
-    }, 4300)
+    removeAnimationVoldemort();
 })
 
 

@@ -1,35 +1,35 @@
 // create button 
 
-let minus = document.createElement("button");
-let calderoneMinus = document.createElement("img")
+const minus = document.createElement("button");
+const calderoneMinus = document.createElement("img")
 calderoneMinus.src = "./assets/img/calderoneMinus.png";
 
 
 minus.appendChild(calderoneMinus);
 
-let box1 = document.getElementById("box1");
+const box1 = document.getElementById("box1");
 
 box1.appendChild(minus);
 
 
-let reset = document.createElement("button");
-let cappelloReset = document.createElement("img")
+const reset = document.createElement("button");
+const cappelloReset = document.createElement("img")
 cappelloReset.src = "./assets/img/cappelloReset.png";
 
 reset.appendChild(cappelloReset);
 
-let box2 = document.getElementById("box2");
+const box2 = document.getElementById("box2");
 
 box2.appendChild(reset);
 
 
-let plus = document.createElement("button");
-let calderonePlus = document.createElement("img")
+const plus = document.createElement("button");
+const calderonePlus = document.createElement("img")
 calderonePlus.src = "./assets/img/calderonePlus.png";
 
 plus.appendChild(calderonePlus);
 
-let box3 = document.getElementById("box3");
+const box3 = document.getElementById("box3");
 
 box3.appendChild(plus);
 
@@ -53,7 +53,7 @@ plus.style.cursor = "pointer";
 
 // counter
 
-let counter = document.getElementById("numbers");
+const counter = document.getElementById("numbers");
 let count = 0;
 
 minus.addEventListener("click", function decrease() {
