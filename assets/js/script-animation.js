@@ -58,7 +58,7 @@ function stopVoice() {
 }
 
 
-minus.addEventListener("click", function animationMinus() {
+function animationMinus() {
     shoowAnimationMinus();
     const audio = setTimeout (function() {
         accio.play()
@@ -66,33 +66,33 @@ minus.addEventListener("click", function animationMinus() {
     let animation = setTimeout (function() {
         removeAnimationMinus();
     }, 4600);
-})
+}
 
 
-reset.addEventListener("click", function animationReset() {
+function animationResetMinus() {
     removeAnimationMinus();
     stopVoice();
     page1.appendChild(voldemort)
     avadaa.play()
     removeAnimationVoldemort();
-})
+}
 
-reset.addEventListener("click", function animationReset() {
+function animationResetPlus() {
     removeAnimationPlus();
     stopVoice();
     page1.appendChild(voldemort)
     avadaa.play()
     removeAnimationVoldemort();
-})
+}
 
 
-plus.addEventListener("click", function animationPlus() {
+function animationPlus() {
     shoowAnimationPlus();
     wingardium.play()
     let animation = setTimeout (function() {
         removeAnimationPlus();
     }, 4600)
-})
+}
 
 
 // animation css

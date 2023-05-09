@@ -53,37 +53,58 @@ plus.style.cursor = "pointer";
 
 // counter
 
+const buttonContainer = document.getElementById("buttons-container");
 const counter = document.getElementById("numbers");
 let count = 0;
 
-minus.addEventListener("click", function decrease() {
+buttonContainer.addEventListener("click", function(event) {
+    const div = event.target.closest("div");
+
+    if(!div) {
+        return;
+    }
+
+    if (div.classList.contains("minus")) {
+        decrease();
+        animationMinus();
+    } else if (div.classList.contains("reset")) {
+        resets();
+        animationResetPlus();
+        animationResetMinus();
+    } else if (div.classList.contains("plus")) {
+        increase();
+        animationPlus();
+    }
+});
+
+function decrease() {
     count -= 1;
     counter.innerHTML = count;
     minus.disabled = true;
     setTimeout (function() {
         minus.disabled = false;
     }, 4600)
-});
+}
 
 
-reset.addEventListener("click", function() {
+function resets() {
     count = 0;
     counter.innerHTML = count;
     reset.disabled = true;
     setTimeout (function() {
         reset.disabled = false
     }, 4300);
-});
+}
 
 
-plus.addEventListener("click", function increase() {
+function increase() {
     count += 1; 
     counter.innerHTML = count;
     plus.disabled = true;
     setTimeout (function() {
         plus.disabled = false;
     }, 4600)
-});
+}
 
 
 
