@@ -69,8 +69,8 @@ buttonContainer.addEventListener("click", function(event) {
         animationMinus();
     } else if (div.classList.contains("reset")) {
         resets();
-        animationResetPlus();
-        animationResetMinus();
+        setTimeout(animationResetPlus, 100);
+        setTimeout(animationResetMinus, 200);
     } else if (div.classList.contains("plus")) {
         increase();
         animationPlus();
