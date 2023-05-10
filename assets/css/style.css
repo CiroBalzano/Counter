@@ -41,13 +41,6 @@ body {
     margin-top: 40px;
 }
 
-.button-style {
-    width: 80px;
-    height: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
 h1 {
     font-size: 120px;
 }
