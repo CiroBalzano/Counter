@@ -1,55 +1,32 @@
 // create button 
 
-const minus = document.createElement("button");
-const calderoneMinus = document.createElement("img")
-calderoneMinus.src = "./assets/img/calderoneMinus.png";
+function createButton(id, imageSrc) {
+    const button = document.createElement("button");
+    const image = document.createElement("img");
+    image.src = imageSrc;
+    button.appendChild(image);
+    const box = document.getElementById(id);
+    box.appendChild(button);
+}
 
 
-minus.appendChild(calderoneMinus);
+createButton("box1", "./assets/img/calderoneMinus.png");
+createButton("box2", "./assets/img/cappelloReset.png");
+createButton("box3", "./assets/img/calderonePlus.png")
 
-const box1 = document.getElementById("box1");
-
-box1.appendChild(minus);
-
-
-const reset = document.createElement("button");
-const cappelloReset = document.createElement("img")
-cappelloReset.src = "./assets/img/cappelloReset.png";
-
-reset.appendChild(cappelloReset);
-
-const box2 = document.getElementById("box2");
-
-box2.appendChild(reset);
-
-
-const plus = document.createElement("button");
-const calderonePlus = document.createElement("img")
-calderonePlus.src = "./assets/img/calderonePlus.png";
-
-plus.appendChild(calderonePlus);
-
-const box3 = document.getElementById("box3");
-
-box3.appendChild(plus);
-
+const minus = box1;
+const reset = box2;
+const plus = box3;
 
 // button css
 
-minus.style.width = "80px"
-minus.style.height = "60px"
-minus.style.borderRadius = "10px"
-minus.style.cursor = "pointer";
+function styleButton(button) {
+    minus.setAttribute("class", "button-style");
+    reset.setAttribute("class", "button-style");
+    plus.setAttribute("class", "button-style");
+}
 
-reset.style.width = "80px"
-reset.style.height = "60px"
-reset.style.borderRadius = "10px"
-reset.style.cursor = "pointer";
-
-plus.style.width = "80px"
-plus.style.height = "60px"
-plus.style.borderRadius = "10px"
-plus.style.cursor = "pointer";
+styleButton();
 
 // counter
 
