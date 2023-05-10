@@ -20,13 +20,21 @@ const plus = box3;
 
 // button css
 
-function styleButton(button) {
-    minus.setAttribute("class", "button-style");
-    reset.setAttribute("class", "button-style");
-    plus.setAttribute("class", "button-style");
-}
+minus.style.width = "80px"
+minus.style.height = "60px"
+minus.style.borderRadius = "10px"
+minus.style.cursor = "pointer";
 
-styleButton();
+reset.style.width = "80px"
+reset.style.height = "60px"
+reset.style.borderRadius = "10px"
+reset.style.cursor = "pointer";
+
+plus.style.width = "80px"
+plus.style.height = "60px"
+plus.style.borderRadius = "10px"
+plus.style.cursor = "pointer";
+
 
 // counter
 

@@ -10,6 +10,7 @@ body {
     background-image: url(../img/Hogworts.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:"Harry Potter Font", sans-serif;
 }
 
 .page-box {
@@ -48,11 +49,16 @@ body {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 120px;
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: "Harry Potter Font";
+    src: url(../font-family/HARRYP__.TTF) format("truetype");
 }
 
 @supports (-webkit-background-clip: text) {
