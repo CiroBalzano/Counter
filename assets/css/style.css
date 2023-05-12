@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;  
+    cursor: url(../img/bacchetta.png), auto;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family:"Harry Potter Font", sans-serif;
+}
+
+.custom-cursor {
+    cursor: url(../img/bacchetta.png), auto;
 }
 
 .page-box {
@@ -84,3 +89,4 @@ audio {
     50% {bottom: 50%; right: 50%;}
     100% {bottom: 100%; right: 100%;}
 }
+
