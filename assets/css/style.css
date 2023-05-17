@@ -63,9 +63,6 @@ h4 {
 .footer_text {
     font-size: 30px;
     color: #FFFF;
-    position: absolute;
-    bottom: 0;
-    left: 40%;
 }
 
 @font-face {
