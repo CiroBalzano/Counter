@@ -65,6 +65,7 @@ h4 {
     color: #FFFF;
     position: absolute;
     bottom: 0;
+    left: 20px;
 }
 
 @font-face {
