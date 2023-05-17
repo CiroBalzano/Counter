@@ -11,6 +11,12 @@
     .counter-box {
         text-align: center;
     }
+    .footer_text {
+        font-size: 15px;
+        color: #FFFF;
+        position: center;
+       ;
+    }
 }
 
 /* Tablet Styles */
