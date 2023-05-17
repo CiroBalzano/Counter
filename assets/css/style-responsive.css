@@ -14,7 +14,9 @@
     .footer_text {
         font-size: 15px;
         color: #FFFF;
-        position: center;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
     }
 }
 
@@ -40,6 +42,13 @@
     }
     audio {
         bottom: -25px;
+    }
+    .footer_text {
+        font-size: 15px;
+        color: #FFFF;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
     }
 }
 
