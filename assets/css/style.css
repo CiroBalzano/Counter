@@ -60,6 +60,12 @@ h4 {
     font-size: 50px;
 }
 
+.footer_text {
+    color: #FFFF;
+    position: absolute;
+    bottom: 0;
+}
+
 @font-face {
     font-family: "Harry Potter Font";
     src: url(../font-family/HARRYP__.TTF) format("truetype");
