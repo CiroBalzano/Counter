@@ -14,9 +14,9 @@ createButton("box1", "./assets/img/calderoneMinus.png");
 createButton("box2", "./assets/img/cappelloReset.png");
 createButton("box3", "./assets/img/calderonePlus.png")
 
-const minus = box1;
-const reset = box2;
-const plus = box3;
+const minus = document.querySelector("#box1");
+const reset = document.querySelector("#box2");
+const plus = document.querySelector("#box3");
 
 // button css
 
@@ -36,6 +36,7 @@ plus.style.borderRadius = "10px"
 plus.style.cursor = "pointer";
 
 
+
 // counter
 
 const buttonContainer = document.getElementById("buttons-container");
@@ -43,7 +44,7 @@ const counter = document.getElementById("numbers");
 let count = 0;
 
 buttonContainer.addEventListener("click", function(event) {
-    const div = event.target.closest("div");
+    const div = event.target.closest("div");  
 
     if(!div) {
         return;
@@ -51,51 +52,52 @@ buttonContainer.addEventListener("click", function(event) {
 
     if (div.classList.contains("minus")) {
         decrease();
-        animationMinus();
     } else if (div.classList.contains("reset")) {
         resets();
         setTimeout(animationResetPlus, 100);
         setTimeout(animationResetMinus, 200);
     } else if (div.classList.contains("plus")) {
         increase();
-        animationPlus();
     }
 });
 
+
 function decrease() {
+    if (minus.classList.contains("disabled")) {
+        return;
+    }
+    minus.classList.add("disabled");
     count -= 1;
     counter.innerHTML = count;
-    minus.disabled = true;
+    animationMinus();
     setTimeout (function() {
-        minus.disabled = false;
+        minus.classList.remove("disabled");
     }, 4600)
 }
 
 
 function resets() {
+    if (reset.classList.contains("disabled")) {
+        return;
+    }
+    reset.classList.add("disabled");
     count = 0;
     counter.innerHTML = count;
-    reset.disabled = true;
     setTimeout (function() {
-        reset.disabled = false
+        reset.classList.remove("disabled");
     }, 4300);
 }
 
 
 function increase() {
+    if (plus.classList.contains("disabled")) {
+        return;
+    }
+    plus.classList.add("disabled");
     count += 1; 
     counter.innerHTML = count;
-    plus.disabled = true;
+    animationPlus();
     setTimeout (function() {
-        plus.disabled = false;
+        plus.classList.remove("disabled");
     }, 4600)
 }
-
-
-
-
-
-
-
-
-
