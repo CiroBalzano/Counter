@@ -15,7 +15,7 @@
         font-size: 15px;
         position: absolute;
         bottom: 0;
-        left: 150px;
+        left: 130px;
     }
 }
 
@@ -46,7 +46,7 @@
         font-size: 15px;
         color: #FFFF;
         position: absolute;
-        bottom: 0;
+        bottom: -30;
         left: 20px;
     }
 }
